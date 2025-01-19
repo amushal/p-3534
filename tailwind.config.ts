@@ -22,27 +22,28 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: "#F6F6F7",
+        foreground: "#222222",
         primary: {
-          DEFAULT: "#9b87f5",
+          DEFAULT: "#33C3F0",
           foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#7E69AB",
+          DEFAULT: "#0FA0CE",
           foreground: "#ffffff",
         },
         accent: {
-          DEFAULT: "#D6BCFA",
-          foreground: "#1A1F2C",
+          DEFAULT: "#D3E4FD",
+          foreground: "#222222",
         },
         card: {
-          DEFAULT: "rgba(26, 31, 44, 0.8)",
-          foreground: "#ffffff",
+          DEFAULT: "rgba(255, 255, 255, 0.9)",
+          foreground: "#222222",
         },
       },
       animation: {
         "fade-up": "fadeUp 0.5s ease-out forwards",
+        "matrix-fall": "matrixFall 20s linear infinite",
       },
       keyframes: {
         fadeUp: {
@@ -53,6 +54,14 @@ export default {
           "100%": {
             opacity: "1",
             transform: "translateY(0)",
+          },
+        },
+        matrixFall: {
+          "0%": {
+            transform: "translateY(-100%)",
+          },
+          "100%": {
+            transform: "translateY(100%)",
           },
         },
       },

@@ -6,19 +6,19 @@
 
 @layer base {
   :root {
-    --background: 228 26% 13%;
-    --foreground: 0 0% 100%;
-    --border: 229 23% 23%;
-    --input: 229 23% 23%;
-    --ring: 229 47% 74%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
   }
 }
 
 body {
   font-family: 'Inter', sans-serif;
-  @apply bg-[#1A1F2C] text-white;
+  @apply bg-background text-foreground;
 }
 
 .glass-card {
-  @apply bg-card/80 backdrop-blur-md border border-white/10 rounded-lg;
+  @apply bg-white/80 backdrop-blur-md border border-black/5 rounded-lg shadow-lg;
 }
