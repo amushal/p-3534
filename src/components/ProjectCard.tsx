@@ -1,10 +1,9 @@
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
-  demoLink: string;
   githubLink: string;
   technologies: string[];
 }
@@ -13,7 +12,6 @@ export const ProjectCard = ({
   title,
   description,
   image,
-  demoLink,
   githubLink,
   technologies,
 }: ProjectCardProps) => {
@@ -37,15 +35,6 @@ export const ProjectCard = ({
         ))}
       </div>
       <div className="flex gap-4 pt-4">
-        <a
-          href={demoLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:text-primary transition-colors"
-        >
-          <ExternalLink size={20} />
-          Live Demo
-        </a>
         <a
           href={githubLink}
           target="_blank"
