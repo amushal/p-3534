@@ -7,13 +7,16 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { useState } from "react";
 
 export const Navigation = () => {
   const isMobile = useIsMobile();
+  const [isOpen, setIsOpen] = useState(false);
   
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: "smooth" });
+    setIsOpen(false);
   };
 
   const NavLinks = () => (
@@ -46,15 +49,15 @@ export const Navigation = () => {
   );
 
   return (
-    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-6 py-3 rounded-full bg-primary/80 backdrop-blur-sm border border-white/10 shadow-lg">
-      <div className="flex items-center gap-8">
+    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-8 py-3 rounded-full bg-primary/80 backdrop-blur-sm border border-white/10 shadow-lg w-[95%] max-w-3xl">
+      <div className="flex items-center justify-between gap-8">
         <Link to="/" className="flex items-center gap-2 text-white hover:text-white/80 transition-colors">
           <CircuitBoard className="w-6 h-6" />
           <span className="font-semibold">Softenance</span>
         </Link>
         
         {isMobile ? (
-          <Sheet>
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="text-white">
                 <Menu className="h-6 w-6" />
