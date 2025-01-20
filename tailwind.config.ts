@@ -44,6 +44,7 @@ export default {
       animation: {
         "fade-up": "fadeUp 0.5s ease-out forwards",
         "matrix-fall": "matrixFall 20s linear infinite",
+        "tilt": "tilt 10s infinite linear",
       },
       keyframes: {
         fadeUp: {
@@ -62,6 +63,17 @@ export default {
           },
           "100%": {
             transform: "translateY(100%)",
+          },
+        },
+        tilt: {
+          "0%, 50%, 100%": {
+            transform: "rotate(0deg)",
+          },
+          "25%": {
+            transform: "rotate(0.5deg)",
+          },
+          "75%": {
+            transform: "rotate(-0.5deg)",
           },
         },
       },

@@ -9,13 +9,16 @@ interface TestimonialProps {
 }
 
 const Testimonial = ({ quote, author, position, company, location }: TestimonialProps) => (
-  <div className="glass-card p-6 space-y-4 animate-fade-up">
-    <Quote className="text-primary h-8 w-8 mb-4" />
-    <p className="text-gray-300 italic">{quote}</p>
-    <div className="pt-4">
-      <p className="font-semibold text-white">{author}</p>
-      <p className="text-sm text-gray-400">{position}</p>
-      <p className="text-sm text-gray-400">{company} • {location}</p>
+  <div className="relative group">
+    <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-purple-600 rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+    <div className="relative bg-card/80 backdrop-blur-xl p-6 rounded-lg space-y-4 animate-fade-up">
+      <Quote className="text-primary-foreground h-8 w-8 mb-4 opacity-80" />
+      <p className="text-gray-300 italic">{quote}</p>
+      <div className="pt-4">
+        <p className="font-semibold text-white">{author}</p>
+        <p className="text-sm text-gray-400">{position}</p>
+        <p className="text-sm text-gray-400">{company} • {location}</p>
+      </div>
     </div>
   </div>
 );
