@@ -37,7 +37,7 @@ export default {
           foreground: "#ffffff",
         },
         card: {
-          DEFAULT: "rgba(34, 34, 34, 0.9)",
+          DEFAULT: "rgba(26, 31, 44, 0.9)",
           foreground: "#ffffff",
         },
       },

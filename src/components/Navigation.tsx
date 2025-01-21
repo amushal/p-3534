@@ -1,4 +1,4 @@
-import { CircuitBoard, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import {
@@ -39,12 +39,6 @@ export const Navigation = () => {
       >
         Testimonials
       </button>
-      <button
-        onClick={() => scrollToSection("contact")}
-        className="text-white/80 hover:text-white transition-colors"
-      >
-        Contact
-      </button>
     </>
   );
 
@@ -52,7 +46,7 @@ export const Navigation = () => {
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-8 py-3 rounded-full bg-primary/80 backdrop-blur-sm border border-white/10 shadow-lg w-[95%] max-w-3xl">
       <div className="flex items-center justify-between gap-8">
         <Link to="/" className="flex items-center gap-2 text-white hover:text-white/80 transition-colors">
-          <CircuitBoard className="w-6 h-6" />
+          <img src="/logo.png" alt="Softenance" className="w-8 h-8" />
           <span className="font-semibold">Softenance</span>
         </Link>
         
