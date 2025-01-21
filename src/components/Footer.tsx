@@ -13,6 +13,9 @@ export const Footer = () => {
           <div className="text-center">
             <h3 className="text-xl font-semibold text-white mb-2">Ala Mushal</h3>
             <p className="text-gray-400">Founder and CTO</p>
+            <a href="mailto:ala@softenance.com" className="text-gray-400 hover:text-white transition-colors">
+              ala@softenance.com
+            </a>
           </div>
 
           <div className="flex gap-6">
