@@ -21,14 +21,14 @@ export const Skills = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {skills.map(({ category, items }) => (
             <div key={category} className="relative group">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-purple-600 rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-dark to-gold rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
               <div className="relative bg-card/80 backdrop-blur-xl p-6 rounded-lg animate-fade-up">
                 <h3 className="text-xl font-semibold mb-4 text-white">{category}</h3>
                 <div className="flex flex-wrap gap-2">
                   {items.map((item) => (
                     <span
                       key={item}
-                      className="px-3 py-1 text-sm bg-primary/20 rounded-full text-primary-foreground"
+                      className="px-3 py-1 text-sm bg-gold/10 rounded-full text-gold-light border border-gold/20"
                     >
                       {item}
                     </span>

@@ -4,6 +4,7 @@ import { Skills } from "../components/Skills";
 import { Testimonials } from "../components/Testimonials";
 import { Navigation } from "../components/Navigation";
 import { Footer } from "../components/Footer";
+import { ScrollToTop } from "../components/ScrollToTop";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         <Testimonials />
         <Footer />
       </main>
+      <ScrollToTop />
     </>
   );
 };
