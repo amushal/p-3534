@@ -1,4 +1,4 @@
-import { CircuitBoard } from "lucide-react";
+import { Crown } from "lucide-react";
 
 const MatrixBackground = () => {
   return (
@@ -31,7 +31,7 @@ export const Hero = () => {
       <div className="animate-fade-up space-y-6 max-w-3xl relative z-10">
         <div className="mb-8 flex flex-col items-center">
           <div className="mb-4 p-4 rounded-full bg-primary/20 text-primary-foreground hover:bg-primary/30 transition-colors">
-            <CircuitBoard size={64} strokeWidth={1.5} />
+            <Crown size={64} strokeWidth={1.5} className="text-gold" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-2">
             Softenance
@@ -49,15 +49,15 @@ export const Hero = () => {
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 hover:text-primary-foreground transition-colors"
+            className="text-gold hover:text-gold-light transition-colors"
           >
-            <CircuitBoard size={24} />
+            LinkedIn
           </a>
           <a
             href="mailto:contact@example.com"
-            className="p-2 hover:text-primary-foreground transition-colors"
+            className="text-gold hover:text-gold-light transition-colors"
           >
-            <CircuitBoard size={24} />
+            Email
           </a>
         </div>
       </div>

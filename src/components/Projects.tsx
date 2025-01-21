@@ -23,7 +23,7 @@ export const Projects = () => {
     {
       title: "Casablanca Hookah Lounge",
       description: "Premium hookah lounge management system with reservation, inventory, and customer relationship features.",
-      image: "https://images.unsplash.com/photo-1527112862739-c3b2f35a46a7",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
       technologies: ["Vue.js", ".NET Core", "SQL Server", "Azure"],
     },
     {
