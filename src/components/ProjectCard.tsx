@@ -13,7 +13,7 @@ export const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <div className="relative group">
-      <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-purple-600 rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-dark to-gold rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
       <div className="relative bg-card/80 backdrop-blur-xl rounded-lg p-6 space-y-4 transition-all duration-300 hover:transform hover:scale-[1.01] hover:shadow-2xl">
         <img
           src={image}

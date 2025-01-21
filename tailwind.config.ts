@@ -24,6 +24,11 @@ export default {
         ring: "hsl(var(--ring))",
         background: "#1A1F2C",
         foreground: "#ffffff",
+        gold: {
+          DEFAULT: "#FFD700",
+          light: "#FFF1AA",
+          dark: "#B8860B",
+        },
         primary: {
           DEFAULT: "#403E43",
           foreground: "#ffffff",
