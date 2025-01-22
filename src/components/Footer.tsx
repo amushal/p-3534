@@ -1,4 +1,4 @@
-import { CircuitBoard, Linkedin, Twitter } from "lucide-react";
+import { Crown, Linkedin, Twitter } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-center gap-8">
           <div className="flex items-center gap-2">
-            <CircuitBoard className="w-8 h-8 text-white" />
+            <Crown className="w-8 h-8 text-white" />
             <span className="text-2xl font-bold text-white">Softenance</span>
           </div>
           
