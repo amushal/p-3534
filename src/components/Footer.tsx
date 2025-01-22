@@ -1,4 +1,4 @@
-import { Crown, Linkedin, Twitter } from "lucide-react";
+import { Crown, Linkedin, Mail, Twitter } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -34,6 +34,12 @@ export const Footer = () => {
               className="text-white/80 hover:text-white transition-colors"
             >
               <Twitter className="w-6 h-6" />
+            </a>
+            <a 
+              href="mailto:ala@softenance.com"
+              className="text-white/80 hover:text-white transition-colors"
+            >
+              <Mail className="w-6 h-6" />
             </a>
           </div>
         </div>

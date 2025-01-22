@@ -44,22 +44,6 @@ export const Hero = () => {
           Enterprise-grade solutions in Web Development, SaaS, AI, Cybersecurity, and Full-Stack Development.
           Delivering scalable, secure, and innovative software solutions for businesses.
         </p>
-        <div className="flex gap-4 justify-center">
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold-light transition-colors"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="mailto:contact@example.com"
-            className="text-gold hover:text-gold-light transition-colors"
-          >
-            Email
-          </a>
-        </div>
       </div>
     </section>
   );
