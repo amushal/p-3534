@@ -6,37 +6,37 @@ export const Projects = () => {
       title: "SquadCare",
       description: "Healthcare management platform for streamlined patient care and administrative operations.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d",
-      technologies: ["React", "Node.js", "MongoDB", "AWS"],
+      technologies: ["Healthcare Management", "Patient Care", "Administrative Tools"],
     },
     {
       title: "Manhattan Financial Group",
       description: "Financial services platform providing wealth management, investment strategies, and portfolio analysis tools.",
       image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11",
-      technologies: ["Angular", ".NET", "SQL Server", "Azure"],
+      technologies: ["Wealth Management", "Investment Analysis", "Portfolio Management"],
     },
     {
       title: "VG Heavy Haul",
       description: "Specialized logistics platform for heavy equipment and oversized load transportation management across North America.",
       image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7",
-      technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
+      technologies: ["Logistics Management", "Transportation", "Equipment Tracking"],
     },
     {
       title: "Casablanca Hookah Lounge",
       description: "Premium hookah lounge management system with reservation, inventory, and customer relationship features.",
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-      technologies: ["Vue.js", ".NET Core", "SQL Server", "Azure"],
+      technologies: ["Hospitality Management", "Inventory Control", "Customer Relations"],
     },
     {
       title: "Vybz",
       description: "Entertainment and event management platform.",
       image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745",
-      technologies: ["React", "Node.js", "MongoDB", "AWS"],
+      technologies: ["Event Planning", "Entertainment", "Venue Management"],
     },
     {
       title: "Savvy Off",
       description: "E-commerce platform for exclusive deals and offers.",
       image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
-      technologies: ["Next.js", "Node.js", "PostgreSQL", "Vercel"],
+      technologies: ["E-commerce", "Deal Management", "Customer Rewards"],
     },
   ];
 
