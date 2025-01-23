@@ -23,7 +23,7 @@ export const Projects = () => {
     {
       title: "Casablanca Hookah Lounge",
       description: "Premium hookah lounge management system with reservation, inventory, and customer relationship features.",
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+      image: "/lovable-uploads/2789ffd9-2405-4e39-986d-fb0ce39dcb7b.png",
       technologies: ["Hospitality Management", "Inventory Control", "Customer Relations"],
     },
     {
