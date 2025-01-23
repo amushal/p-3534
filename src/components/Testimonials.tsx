@@ -27,24 +27,24 @@ export const Testimonials = () => {
   const testimonials = [
     {
       quote: "Softenance transformed our legacy systems into a modern, cloud-based solution. Their expertise in enterprise architecture and SaaS development exceeded our expectations.",
-      author: "Sarah Martinez",
-      position: "CTO",
-      company: "TechFlow Solutions",
-      location: "San Antonio, Texas"
+      author: "Jack Akel",
+      position: "CEO",
+      company: "BridgeLOS",
+      location: "Escondido, California"
     },
     {
       quote: "Their cybersecurity implementations have significantly enhanced our data protection. The team's knowledge in AI and web development helped us stay ahead of the curve.",
-      author: "Michael Chen",
-      position: "Director of IT",
-      company: "Pacific Digital Systems",
-      location: "San Diego, CA"
+      author: "Mohammed Memon",
+      position: "CEO",
+      company: "Hifinite",
+      location: "San Diego, California"
     },
     {
       quote: "Working with Softenance on our enterprise software modernization was seamless. Their full-stack development capabilities and attention to detail are outstanding.",
-      author: "Jennifer Wilson",
-      position: "VP of Engineering",
-      company: "Midwest Innovation Labs",
-      location: "Ann Arbor, MI"
+      author: "Raymond Conklin",
+      position: "Director of IT",
+      company: "RC Custom Solutions",
+      location: "Dallas, Texas"
     }
   ];
 
