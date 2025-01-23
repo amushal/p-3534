@@ -10,7 +10,7 @@ interface TestimonialProps {
 
 const Testimonial = ({ quote, author, position, company, location }: TestimonialProps) => (
   <div className="relative group h-full">
-    <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-dark to-gold rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+    <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-dark to-gold rounded-lg blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
     <div className="relative bg-card/80 backdrop-blur-xl p-6 rounded-lg space-y-4 animate-fade-up h-full flex flex-col">
       <Quote className="text-gold h-8 w-8 mb-4 opacity-80" />
       <p className="text-gray-300 italic flex-grow">{quote}</p>
@@ -49,7 +49,7 @@ export const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 px-4">
+    <section id="testimonials" className="py-20 px-4 opacity-0 animate-fade-up">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold mb-12 text-center">Client Testimonials</h2>
         <div className="grid md:grid-cols-3 gap-8">
