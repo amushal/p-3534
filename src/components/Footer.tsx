@@ -5,9 +5,12 @@ export const Footer = () => {
     <footer className="py-20 px-4 bg-black/20">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-center gap-8">
-          <div className="flex items-center gap-2">
-            <Crown className="w-8 h-8 text-white" />
-            <span className="text-2xl font-bold text-white">Softenance</span>
+          <div className="flex flex-col items-center">
+            <div className="flex items-center gap-2">
+              <Crown className="w-8 h-8 text-white" />
+              <span className="text-2xl font-bold text-white">Softenance</span>
+            </div>
+            <p className="text-gray-400 mt-2">Where Technology Meets Reliability</p>
           </div>
           
           <div className="text-center">
