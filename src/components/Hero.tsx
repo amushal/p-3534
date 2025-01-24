@@ -34,10 +34,13 @@ export const Hero = () => {
             <Crown size={64} strokeWidth={1.5} className="text-gold" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-2">
-            Softenance
+            Bridging Innovation and Excellence
           </h1>
+          <p className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-2">
+            Softenance
+          </p>
           <p className="text-xl text-primary-foreground font-medium">
-            Software Consulting Solutions
+            Innovate. Integrate. Inspire
           </p>
         </div>
         <p className="text-lg md:text-xl text-foreground/80">
