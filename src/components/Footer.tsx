@@ -10,7 +10,7 @@ export const Footer = () => {
               <Crown className="w-8 h-8 text-white" />
               <span className="text-2xl font-bold text-white">Softenance</span>
             </div>
-            <p className="text-gray-400 mt-2">Where Technology Meets Reliability</p>
+            <p className="text-gold mt-2">Where Technology Meets Reliability</p>
           </div>
           
           <div className="text-center">
