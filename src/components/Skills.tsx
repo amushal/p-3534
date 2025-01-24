@@ -2,7 +2,7 @@ export const Skills = () => {
   const skills = [
     { 
       category: "Backend & Cloud", 
-      items: [".NET Core", "C#", "SQL Server", "Azure DevOps", "Node.js"] 
+      items: [".NET Core", "C#", "SQL Server", "Azure", "AWS", "Node.js", "Python", "Docker", "Kubernetes"] 
     },
     { 
       category: "Frontend & UI", 
@@ -10,7 +10,7 @@ export const Skills = () => {
     },
     { 
       category: "Specializations", 
-      items: ["Web Development", "SaaS Solutions", "AI/ML", "Cybersecurity", "Enterprise Architecture"] 
+      items: ["Web Development", "SaaS Solutions", "AI/ML", "Cybersecurity", "Enterprise Architecture", "Microservices"] 
     },
   ];
 
